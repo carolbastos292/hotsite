@@ -11,6 +11,16 @@
   margin-right: 15px;
   padding-top: 5%;
   padding-bottom: 5%;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+  
+}
+
+.networks:hover{
+  margin-right: 15px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  opacity: 1;
 }
 
 @media (min-width: 961px){
@@ -25,11 +35,13 @@
     border-radius: 5px;
     padding-right: 0px;
     padding-left: 0px;
-    opacity: 1.0;
+    opacity: 0.8;
     max-width: 15%;
+    transition: max-width 0.4s;
   }
   .divSubscription #subscription:hover {
-    opacity: 0.8;
+    opacity: 1.0;
+    max-width: 16%;
   }
 
   .divSubscription #title {
@@ -75,7 +87,14 @@
     padding-left: 30px;
     font-size: 1.5rem;
     vertical-align: bottom;
+    height: 7.5%;
+    transition: box-shadow 0.3s;
   }
+
+  .divSubscription #rules:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
   .divLogoFooter #logoFooter{
     padding-top: 7%;
     padding-bottom: 5%;
