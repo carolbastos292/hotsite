@@ -1,0 +1,94 @@
+@font-face {
+  font-family: SamsungImaginationBold;
+  src: url(../assets/fonts/SamsungImaginationBold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: SamsungSans-Regular;
+  src: url(../assets/fonts/SamsungSans-Regular.ttf) format("opentype");
+}
+
+html,
+body {
+  height: 100%;
+  color: #0050A1;
+}
+
+body {
+  margin: 0;
+  color: #0050A1;
+
+}
+
+.block{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.title{
+  font-size: 3rem;
+  font-family: 'SamsungImaginationBold', 'arial', sans-serif;
+}
+
+#textEvent{
+  font-size: 1.5rem;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: 'SamsungSans-Regular', 'arial', sans-serif;
+}
+
+.informations{
+  font-family: 'SamsungSans-Regular', 'arial', sans-serif;
+}
+
+.textInfo{
+  padding-left: 30px;
+}
+
+.boxInfo .icon{
+  position: absolute;
+  padding-right: 10px;
+  width: 35px;
+}
+
+.address{
+  margin-left: 7%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  margin-top: 20px;
+  box-shadow: 10px 5px 1px #e3e2e6;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+@media (max-width: 961px){
+  .title{
+    font-size: 2rem;
+  }
+  #textEvent{
+    font-size: 1.2rem;
+  }
+  .address{
+    margin-left: 12%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+
+
+
+
+

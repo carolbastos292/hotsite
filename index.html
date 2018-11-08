@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link rel="icon" type="image/x-icon" href="favicon.ico">
+	  <link rel="stylesheet" type="text/css" href="css/nav.css">
+	  <link rel="stylesheet" type="text/css" href="css/footer.css">
+	  <link rel="stylesheet" type="text/css" href="css/style.css">
+	  <title>Ocean Challenge</title>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+    	<nav class="transparent z-depth-0 nav">
+		  <div class="nav-wrapper">
+		    <div class="row">
+		      <div class="col s12">
+		          <img class="responsive-img" id="imgNav" src="assets/img/icons/logos_BRANCAS.png">
+		          <ul id="nav-mobile " class="right hide-on-med-and-down" >
+		            <li><a href="#about">Sobre o Evento</a></li>
+		            <li><a href="#timeline">Timeline</a></li>
+		            <li><a href="#informations">Data e Local</a></li>
+		            <li><a href="#subscription">Inscrição</a></li>
+		          </ul>
+		      </div>
+		    </div>
+		    <ul class="sidenav" id="mobile-demo">
+		      <li><a >Sobre o Evento</a></li>
+		      <li><a >Timeline</a></li>
+		      <li><a >Data e Local</a></li>
+		      <li><a >Inscrição</a></li>
+		    </ul>
+		  </div>
+		</nav>
+		<div class="home">
+		  <div class="banner">
+		        <img class="responsive-img imgA1" src="assets/img/bannerTop.png" title="Ocean Challenge - Data Science Edition 2018">
+		  </div>
+		  <div class="container block" id="about">
+		        <div class="col s12 m12 l12 xl12 center ">
+		          <h3 class="title" >Sobre o Evento</h3>
+		          <p class="light" id="textEvent">Este evento tem como principal objetivo fomentar a interação e troca de experiência entre os membros da comunidade que possuem interesse em ciência de dados a partir do desenvolvimento de uma ferramenta ou serviço que aborde um dos seguintes temas: saúde, educação e cidadania.</p>
+		        </div>
+		  </div>
+
+		  <div class="" id="timeline">
+		    <img class="responsive-img" src="assets/img/program.png">
+		  </div>
+
+		  <div class="container block" id="informations">
+		    <h3 class="title center-align">Data e Local</h3>
+		      <div class="row">
+		        <div class="col s12 m6 l6 xl6 boxInfo" >
+		          <div class="box_date">
+		            <img class="icon" src="assets/img/icons/ic_event.png"><h5 id="date" class="textInfo">DE <b>07 à 09</b> de <b>Dezembro</b></h5>
+		          </div>
+		          <div class="left-align">
+		            <img class="icon" src="assets/img/icons/ic_place.png"><h5 class="textInfo"><b>OCEAN CENTER Manaus </b></h5>
+		            <p class="address">Av. Darcy Vargas, 1.200, Manaus</p>
+		            <p class="address">Prédio Samsung Ocean da Escola Superior de Tecnologia - EST/UEA</p>
+		            <img class="icon" src="assets/img/icons/ic_phone.png"><h6 class="textInfo">Tel: (92) 3022-6824</h6>
+		            <img class="icon" src="assets/img/icons/ic_email.png"><h6 class="textInfo">manaus@oceanbrasil.com</h6>
+		            <img class="icon" src="assets/img/icons/ic_site.png"><h6 class="textInfo">oceanbrasil.com</h6>
+		          </div>
+		        </div>
+		        <div class="col s12 m6 l6 xl6">
+		            <div class="map-responsive hoverable">
+		                 <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d7968.020789660015!2d-60.02599492586106!3d-3.0918917909939743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x926c1aa5b9d672f3%3A0xf20500e3d68013ac!2socean+manaus!3m2!1d-3.0926023999999996!2d-60.0183052!5e0!3m2!1spt-BR!2sbr!4v1541022882254" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		            </div>
+		        </div>
+		      </div>
+		  </div>
+		</div>
+
+		<footer>
+		    <div class="divSubscription">
+		        <img src="assets/img/banner_3.png" class="responsive-img" alt="Inscreva-se">
+		        <h4 class="white-text text-white title" id="title">Inscrições</h4>
+		        <h6 id="subtitle">Clique e se inscreva!</h6>
+		        <a href="https://goo.gl/forms/fd4eteGo9mmKbsID2" target="_blank"><input id="subscription" type="image" src="assets/img/button2.png" ></a>
+		        <a id="rules" src="#" target="_blank" class="N/A transparent btn ">REGULAMENTO</a>
+		    </div>
+		    <div class="row container" style="margin-bottom: 0px">
+		        <div class="divLogoFooter col s12 m6 l6">
+		            <img id="logoFooter" class="responsive-img" src="assets/img/uea-ocean-samsung-COLORIDAS.png">
+		        </div>
+		        <div class=" col s12 m6 l6 right-align">
+		            <a href="https://www.facebook.com/oceanmanaus/" target="_blank"><img class="responsive-img networks" src="assets/img/face.png"></a>
+		            <a href="https://www.instagram.com/oceanmanaus/" target="_blank"><img class="responsive-img networks" src="assets/img/insta.png"></a>
+		            <a href="https://pt.linkedin.com/company/samsung-ocean" target="_blank"><img class="responsive-img networks" src="assets/img/linkedin.png"></a>
+		        </div>
+		    </div>
+		</footer>
+		<script src="js/smoothscrooll.js"></script>
+		<!-- Compiled and minified JavaScript -->
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </body>
+  </html>
+       
